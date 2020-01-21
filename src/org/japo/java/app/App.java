@@ -17,8 +17,6 @@ package org.japo.java.app;
 
 import org.japo.java.entities.CentroEducativo;
 
-
-
 /**
  *
  * @author Mario Merlos Abella - mario.merlos.alum@iescamp.es
@@ -26,17 +24,12 @@ import org.japo.java.entities.CentroEducativo;
 public final class App {
 
     public final void launchApp() {
-        
-       
+
         System.out.println("Control de asistencia");
         System.out.println("====================");
         CentroEducativo ies = CentroEducativo.getInstance();
         ies.setAlumnos(0);
         ies.mostrarInfo();
-        
-        
-        
-        
 
     }
 }
